@@ -18,8 +18,7 @@ function App() {
   }, [])
 
 
-
-  const dataTable = useMemo(() => data.data.movies, [])
+  // const dataTable = useMemo(() => data.data.movies, [])
   const columns = useMemo(() =>[
     {
       Header:'ID Movies',
@@ -54,7 +53,7 @@ function App() {
   return (
     <div className="App">
       <h1>showing movie list with react-table</h1>
-      {data == null ? <div>Data Null</div> : <Table columns={columns} data={dataTable} />}
+      {data == null ? <div>Data Null</div> : <Table columns={columns} data={data.data.movies} />}
       
     </div>
   );
