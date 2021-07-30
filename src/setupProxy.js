@@ -9,3 +9,5 @@ module.exports = function(app) {
     })
   );
 };
+
+//"proxy": "https://n7b67.sse.codesandbox.io",
