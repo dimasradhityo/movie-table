@@ -1,0 +1,5 @@
+{
+    "rewrite": [
+        { "source": "graphql", "destination": "https://n7b67.sse.codesandbox.io/graphql"}
+    ]
+}
